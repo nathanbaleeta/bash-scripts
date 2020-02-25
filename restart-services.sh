@@ -1,4 +1,4 @@
-# Stop services if running
+# Restart services if running
 
 #!/bin/bash
 
@@ -16,11 +16,11 @@ echo "$serv is down/dead"
 
 else
 
-echo "$serv is running"
+echo "$serv is restarting"
 
-systemctl stop $serv
+systemctl restart $serv
 
-echo "$serv is down/dead" 
+echo "$serv is now running" 
 
 fi
 
