@@ -2,7 +2,7 @@
 
 #!/bin/bash
 
-for serv in nginx redis-server rabbitmq-server.service mongodb.service mariadb.service neo4j.service elasticsearch.service
+for serv in nginx redis-server rabbitmq-server.service mongodb.service mariadb.service neo4j.service elasticsearch.service docker.service
 
 do
 
